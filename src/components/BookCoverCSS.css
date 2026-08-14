@@ -1,0 +1,27 @@
+.book-cover {
+  width: 200px;
+  height: 300px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+}
+
+.book-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  word-wrap: break-word;
+}
+
+.book-author {
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.9;
+}
